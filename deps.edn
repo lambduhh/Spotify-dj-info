@@ -1,0 +1,12 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure {:mvn/version "1.11.1"}
+         clj-http/clj-http {:mvn/version "3.12.3"}
+         cheshire/cheshire {:mvn/version "5.11.0"}
+         ring/ring-core {:mvn/version "1.11.0"}
+         me.raynes/conch {:mvn/version "0.8.0"}
+         ring/ring-jetty-adapter {:mvn/version "1.11.0"}
+         ring/ring-defaults {:mvn/version "0.3.4"}}
+
+ :aliases
+ {:dev {:extra-paths ["dev"]
+        :extra-deps {cider/cider-nrepl {:mvn/version "0.30.0"}}}}}

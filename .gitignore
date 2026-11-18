@@ -13,8 +13,10 @@ pom.xml.asc
 .nrepl-port
 .cpcache/
 .clj-kondo/
- .lsp/*
- .env
+.lsp/
+.env
  
 
 
+auth.json
+access-token.json
